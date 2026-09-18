@@ -65,8 +65,10 @@ final class OurGroceriesAPIClientTests: XCTestCase {
         ])
         let client = OurGroceriesAPIClient(transport: transport)
         try await client.signIn(email: "a", password: "b")
-        XCTAssertEqual(try await client.inspectList(id: "list-1").items, [GroceryItem(id: "item-1", value: "Milk", note: nil)])
-        XCTAssertEqual(try await client.insertItem(listID: "list-1", value: "Eggs").itemID, "item-2")
+        let inspection = try await client.inspectList(id: "list-1")
+        XCTAssertEqual(inspection.items, [GroceryItem(id: "item-1", value: "Milk", note: nil)])
+        let acknowledgement = try await client.insertItem(listID: "list-1", value: "Eggs")
+        XCTAssertEqual(acknowledgement.itemID, "item-2")
         let requests = await transport.requests
         let inspect = try XCTUnwrap(requests[2].httpBody).jsonObject() as! [String: Any]
         let insert = try XCTUnwrap(requests[3].httpBody).jsonObject() as! [String: Any]
