@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300000000000000000000001 /* OurGroceriesMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* OurGroceriesMenuBarApp.swift */; };
+		300000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* AppDelegate.swift */; };
+		300000000000000000000003 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* RootView.swift */; };
+		300000000000000000000004 /* GroceriesCore in Frameworks */ = {isa = PBXBuildFile; productRef = 700000000000000000000002 /* GroceriesCore */; };
+		300000000000000000000005 /* OurGroceriesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* OurGroceriesAppTests.swift */; };
+		300000000000000000000006 /* OurGroceriesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* OurGroceriesAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		500000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000001;
+			remoteInfo = OurGroceriesMenuBar;
+		};
+		500000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000001;
+			remoteInfo = OurGroceriesMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* OurGroceriesMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurGroceriesMenuBarApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000005 /* OurGroceriesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurGroceriesAppTests.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* OurGroceriesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurGroceriesAppUITests.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* OurGroceriesMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurGroceriesMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000011 /* OurGroceriesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurGroceriesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000012 /* OurGroceriesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurGroceriesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (300000000000000000000004 /* GroceriesCore in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000004 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000007 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000101 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000102 /* App */,
+				100000000000000000000105 /* Tests */,
+				100000000000000000000108 /* Packages */,
+				100000000000000000000100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000100 /* Products */ = {isa = PBXGroup; children = (200000000000000000000010 /* OurGroceriesMenuBar.app */, 200000000000000000000011 /* OurGroceriesAppTests.xctest */, 200000000000000000000012 /* OurGroceriesAppUITests.xctest */,); name = Products; sourceTree = "<group>"; };
+		100000000000000000000102 /* App */ = {isa = PBXGroup; children = (200000000000000000000001 /* OurGroceriesMenuBarApp.swift */, 100000000000000000000103 /* Platform */, 100000000000000000000104 /* UI */, 200000000000000000000004 /* Info.plist */,); path = App; sourceTree = "<group>"; };
+		100000000000000000000103 /* Platform */ = {isa = PBXGroup; children = (200000000000000000000002 /* AppDelegate.swift */,); path = Platform; sourceTree = "<group>"; };
+		100000000000000000000104 /* UI */ = {isa = PBXGroup; children = (200000000000000000000003 /* RootView.swift */,); path = UI; sourceTree = "<group>"; };
+		100000000000000000000105 /* Tests */ = {isa = PBXGroup; children = (100000000000000000000106 /* OurGroceriesAppTests */, 100000000000000000000107 /* OurGroceriesAppUITests */,); path = Tests; sourceTree = "<group>"; };
+		100000000000000000000106 /* OurGroceriesAppTests */ = {isa = PBXGroup; children = (200000000000000000000005 /* OurGroceriesAppTests.swift */,); path = OurGroceriesAppTests; sourceTree = "<group>"; };
+		100000000000000000000107 /* OurGroceriesAppUITests */ = {isa = PBXGroup; children = (200000000000000000000006 /* OurGroceriesAppUITests.swift */,); path = OurGroceriesAppUITests; sourceTree = "<group>"; };
+		100000000000000000000108 /* Packages */ = {isa = PBXGroup; children = (); name = Packages; path = Packages; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000001 /* OurGroceriesMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000011 /* Build configuration list for PBXNativeTarget "OurGroceriesMenuBar" */;
+			buildPhases = (400000000000000000000001 /* Frameworks */, 400000000000000000000002 /* Sources */, 400000000000000000000003 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = OurGroceriesMenuBar;
+			packageProductDependencies = (700000000000000000000002 /* GroceriesCore */,);
+			productName = OurGroceriesMenuBar;
+			productReference = 200000000000000000000010 /* OurGroceriesMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000002 /* OurGroceriesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000012 /* Build configuration list for PBXNativeTarget "OurGroceriesAppTests" */;
+			buildPhases = (400000000000000000000004 /* Frameworks */, 400000000000000000000005 /* Sources */, 400000000000000000000006 /* Resources */,);
+			buildRules = ();
+			dependencies = (600000000000000000000001 /* PBXTargetDependency */,);
+			name = OurGroceriesAppTests;
+			productName = OurGroceriesAppTests;
+			productReference = 200000000000000000000011 /* OurGroceriesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		100000000000000000000003 /* OurGroceriesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000013 /* Build configuration list for PBXNativeTarget "OurGroceriesAppUITests" */;
+			buildPhases = (400000000000000000000007 /* Frameworks */, 400000000000000000000008 /* Sources */, 400000000000000000000009 /* Resources */,);
+			buildRules = ();
+			dependencies = (600000000000000000000002 /* PBXTargetDependency */,);
+			name = OurGroceriesAppUITests;
+			productName = OurGroceriesAppUITests;
+			productReference = 200000000000000000000012 /* OurGroceriesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					100000000000000000000001 = {CreatedOnToolsVersion = 16.4; };
+					100000000000000000000002 = {CreatedOnToolsVersion = 16.4; TestTargetID = 100000000000000000000001; };
+					100000000000000000000003 = {CreatedOnToolsVersion = 16.4; TestTargetID = 100000000000000000000001; };
+				};
+			};
+			buildConfigurationList = 100000000000000000000010 /* Build configuration list for PBXProject "OurGroceriesMenuBar" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = 100000000000000000000101;
+			packageReferences = (700000000000000000000001 /* XCLocalSwiftPackageReference "Packages/GroceriesCore" */,);
+			productRefGroup = 100000000000000000000100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000001 /* OurGroceriesMenuBar */, 100000000000000000000002 /* OurGroceriesAppTests */, 100000000000000000000003 /* OurGroceriesAppUITests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000009 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (300000000000000000000001 /* OurGroceriesMenuBarApp.swift in Sources */, 300000000000000000000002 /* AppDelegate.swift in Sources */, 300000000000000000000003 /* RootView.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000005 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (300000000000000000000005 /* OurGroceriesAppTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000008 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (300000000000000000000006 /* OurGroceriesAppUITests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		600000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000001 /* OurGroceriesMenuBar */; targetProxy = 500000000000000000000001 /* PBXContainerItemProxy */; };
+		600000000000000000000002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000001 /* OurGroceriesMenuBar */; targetProxy = 500000000000000000000002 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		800000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		800000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; }; name = Release; };
+		800000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = App/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBar; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		800000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = App/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBar; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+		800000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBarTests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OurGroceriesMenuBar.app/Contents/MacOS/OurGroceriesMenuBar"; }; name = Debug; };
+		800000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBarTests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OurGroceriesMenuBar.app/Contents/MacOS/OurGroceriesMenuBar"; }; name = Release; };
+		800000000000000000000007 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBarUITests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_TARGET_NAME = OurGroceriesMenuBar; }; name = Debug; };
+		800000000000000000000008 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.cjdelros.OurGroceriesMenuBarUITests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_TARGET_NAME = OurGroceriesMenuBar; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000010 /* Build configuration list for PBXProject "OurGroceriesMenuBar" */ = {isa = XCConfigurationList; buildConfigurations = (800000000000000000000001 /* Debug */, 800000000000000000000002 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000011 /* Build configuration list for PBXNativeTarget "OurGroceriesMenuBar" */ = {isa = XCConfigurationList; buildConfigurations = (800000000000000000000003 /* Debug */, 800000000000000000000004 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000012 /* Build configuration list for PBXNativeTarget "OurGroceriesAppTests" */ = {isa = XCConfigurationList; buildConfigurations = (800000000000000000000005 /* Debug */, 800000000000000000000006 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000013 /* Build configuration list for PBXNativeTarget "OurGroceriesAppUITests" */ = {isa = XCConfigurationList; buildConfigurations = (800000000000000000000007 /* Debug */, 800000000000000000000008 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		700000000000000000000001 /* XCLocalSwiftPackageReference "Packages/GroceriesCore" */ = {isa = XCLocalSwiftPackageReference; relativePath = Packages/GroceriesCore; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		700000000000000000000002 /* GroceriesCore */ = {isa = XCSwiftPackageProductDependency; package = 700000000000000000000001 /* XCLocalSwiftPackageReference "Packages/GroceriesCore" */; productName = GroceriesCore; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 100000000000000000000000 /* Project object */;
+}
